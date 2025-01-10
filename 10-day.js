@@ -7,3 +7,8 @@ var scoreOfString = function (s) {
 };
 
 console.log(scoreOfString("hello"));
+
+//https://leetcode.com/problems/score-of-a-string/
+
+/*The ASCII values of the characters in s are: 'h' = 104, 'e' = 101, 'l' = 108, 'o' = 111. 
+So, the score of s would be |104 - 101| + |101 - 108| + |108 - 108| + |108 - 111| = 3 + 7 + 0 + 3 = 13. */
